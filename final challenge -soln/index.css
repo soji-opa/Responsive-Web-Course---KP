@@ -18,9 +18,9 @@ h1 {
     margin-top: 0;
 }
 
-.section-title {
-    /* color: #87629A; */
-}
+/* .section-title {
+    color: #87629A;
+} */
 
 .btn {
     display: inline-block;
@@ -29,8 +29,9 @@ h1 {
     color: #ffffff;
     font-weight: 900;
     background-color: #A59678;
-    padding: .75em 2em;
+    padding: .7em 2em;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -163,8 +164,6 @@ header{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 900;
     color: #ffffff;
-    /* line-height: normal; */
-    /* overflow: hidden; */
 }
 
 .hero-p{
@@ -188,6 +187,10 @@ header{
     color: #A59678; 
 }
 
+.hero-img{
+    width: 100%;
+}
+
 .aside-first--div{
     background: #2E323F;
     padding: 0.45rem 0.55rem;
@@ -195,6 +198,13 @@ header{
     text-align: center;
     font-family: Antarctican Headline;
     margin-bottom: 1rem;
+    
+}
+
+.aside-first--div h3{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
 }
 
 .aside-first--div p{
@@ -254,16 +264,14 @@ footer h3{
     .nav{
         visibility: visible;
         position: relative;
-        display: flex;
-        justify-content: space-between;
     }
 
+   
     .logo{
-        display: flex;
         align-self: center;
-        margin-left: -0.05em;
-        margin-right: 21rem;
+        margin: 0em;
     }
+
     .row{
         display: flex;
         justify-content: space-between;
@@ -271,18 +279,20 @@ footer h3{
 
     .nav-list{
         display: flex;
-        margin: 0;
-        /* align-self: flex-end; */
-    }
-
-    .nav-link{
-        /* margin-left: 3.5rem; */
-        /* font-size: 1rem; */
+        justify-content: space-around;
     }
 
     .nav-item{
-        margin-top: 0;
-        margin-left: 3rem;
+        margin: 0;
+    }
+
+    .nav-list--primary{
+        margin: 0;
+        margin-left: 2.5em;
+    }
+
+    .nav-link{
+        font-size: .9rem;
     }
 
     .hero-text{
@@ -291,10 +301,12 @@ footer h3{
 
     .hero-text h1{
         margin: 0em;
+        font-size: 3rem;
     }
 
     .hero-p{
-        width: 45%;
+        width: 40%;
+        font-size: 1rem;
         align-self: flex-end;
         line-height: 1.3;
     }
@@ -305,22 +317,23 @@ footer h3{
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+
     .col-1{
-        width: 28%;
+        width: 25%;
     }
 
     .col-1 h3{
         text-align: center;
         color: wheat;
+        font-size: 1.2rem;
     }
 
     .col-1 p{
         text-align: center;
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
 
-    main{
-        
+    main{ 
         padding: 1.5rem 0;
     }
 
@@ -328,24 +341,74 @@ footer h3{
         margin-top: 0;
         margin-bottom: 0;
         padding: 0;
-        width: 55%;
+        width: 56%;
     }
 
     .hero-img{
-        width: 80%;
-        height: auto;
+        width: 100%;
     }
 
     .main-section--firstdiv p{
         line-height: 1.3;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     aside{
-        width: 30%;
-        /* height: 400px; */
+        width: 33%;
         align-items: flex-start;
         margin-top: 2em;
+    }
+
+    .aside-first--div{
+        padding: 0.3rem 0.2rem 0.1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .aside-first--div h3{
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .aside-first--div p{
+        font-size: .8rem;
+        line-height: 1.2;
+        padding: 0;
+    }
+
+    .aside-second--div{
+        padding: 0.3rem 0.2rem 0.1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .aside-second--div h3{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .aside-second--div p{
+        font-size: .8rem;
+        line-height: 1.2;
+        padding: 0;
+    }
+
+    .aside-third--div{
+        padding: 0.3rem 0.2rem 0.1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .aside-third--div h3{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .aside-third--div p{
+        font-size: .8rem;
+        line-height: 1.2;
+        padding: 0;
     }
 
     footer{
