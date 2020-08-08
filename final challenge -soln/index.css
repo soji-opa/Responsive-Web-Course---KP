@@ -44,7 +44,7 @@ h1 {
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 header{
@@ -417,10 +417,57 @@ footer h3{
         width: 100%;
     }
 
+    footer h3{
+        margin-top: 1.2rem;
+        font-size: 1.5rem;
+    }
+
     .footer-contents{
         display: flex;
         width: 100%;
         margin: 0;
         padding:0;
+    }
+
+    .footer-second--div{
+        width: 61.5%;
+    }
+
+    .footer-second--div ul{
+        list-style-type: none;
+    }
+
+    .footer-second--div h3{
+        font-size: .8rem;
+        color: wheat;
+        text-align: left;
+    }
+
+    .footer-second--div li{
+        font-size: 1rem;
+        color: whitesmoke;
+        font-size: .7rem;
+    }
+
+    .footer-other--div{
+        width: 35%;
+    }
+
+    .footer-other--div ul{
+        list-style-type: none;
+    }
+
+    .footer-other--div h3{
+        /* display: inline-block; */
+        font-size: .8rem;
+        text-align: left;
+        color: wheat;
+    }
+
+    .footer-lists{
+        color: whitesmoke;
+        font-size: .7rem;
+        line-height: 2.5;
+        /* padding: .3em; */
     }
 }
